@@ -32,7 +32,7 @@ if 'requests' not in st.session_state:
     # st.session_state.buffer_memory=ConversationBufferWindowMemory(k=3,return_messages=True)
 
 
-chat = ChatOpenAI(model_name="gpt-3.5-turbo",temperature=0.3)
+chat = ChatOpenAI(model_name="gpt-4",temperature=0.3)
 
 
 # system_msg_template = SystemMessagePromptTemplate.from_template(template="""Answer the question as truthfully as possible using the provided context,

@@ -14,7 +14,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 load_dotenv()
 
-folder = r"AOMSI\AOMSI_book"
+folder = r"AOMSI/AOMSI_book"
 
 # directory = '/content/data'
 openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -40,7 +40,7 @@ def extract_text_from_pdf(pdf_path):
         pdf_Reader = PyPDF2.PdfReader(pdf_File_Object)
 
     # Now we will print number of pages in pdf file
-        print("No. of pages in the given PDF file: ", len(pdf_Reader.pages))
+        #print("No. of pages in the given PDF file: ", len(pdf_Reader.pages))
         num_pages = len(pdf_Reader.pages)
         for j in range(num_pages):
     # Here, create a page object
