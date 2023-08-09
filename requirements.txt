@@ -1,0 +1,12 @@
+streamlit 
+streamlit_chat 
+langchain  
+openai 
+sentence_transformers
+# unstructured 
+# unstructured[local-inference]
+pinecone-client
+python-dotenv
+PyPDF2
+faiss-cpu
+tiktoken
